@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTextSharpLGPL-MonoForAndroid", "iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid.csproj", "{EB50C29C-A493-4015-B1EE-E6FF72DF1A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{87EC5206-CF7B-49B3-8CE1-6C2F4EBDCB77}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iTextSharpLGPL-MonoForAndroid-Tester", "iTextSharpLGPL-MonoForAndroid-Tester\iTextSharpLGPL-MonoForAndroid-Tester.csproj", "{16DBFB0A-07E3-4FD7-91FB-65E5A7F242A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16DBFB0A-07E3-4FD7-91FB-65E5A7F242A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DBFB0A-07E3-4FD7-91FB-65E5A7F242A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DBFB0A-07E3-4FD7-91FB-65E5A7F242A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DBFB0A-07E3-4FD7-91FB-65E5A7F242A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB50C29C-A493-4015-B1EE-E6FF72DF1A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB50C29C-A493-4015-B1EE-E6FF72DF1A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB50C29C-A493-4015-B1EE-E6FF72DF1A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB50C29C-A493-4015-B1EE-E6FF72DF1A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = iTextSharpLGPL-MonoForAndroid-Tester\iTextSharpLGPL-MonoForAndroid-Tester.csproj
+	EndGlobalSection
+EndGlobal

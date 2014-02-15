@@ -1,0 +1,11 @@
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\bin\Debug\iTextSharpLGPL-MonoForAndroid.dll
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\bin\Debug\iTextSharpLGPL-MonoForAndroid.pdb
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\bin\Debug\iTextSharpLGPL-MonoForAndroid.dll.mdb
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\bin\Debug\iTextSharpLGPL_MonoForAndroid.iTextSharpLGPL_MonoForAndroid.apk
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\bin\Debug\iTextSharpLGPL_MonoForAndroid.iTextSharpLGPL_MonoForAndroid-Signed.apk
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\obj\Debug\iTextSharpLGPL-MonoForAndroid.dll
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\obj\Debug\iTextSharpLGPL-MonoForAndroid.pdb
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\obj\Debug\android\bin\iTextSharpLGPL_MonoForAndroid.iTextSharpLGPL_MonoForAndroid.apk
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\obj\Debug\res\values\strings.xml
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\obj\Debug\R.cs.flag
+D:\Scratch\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\obj\Debug\uploadflags.txt

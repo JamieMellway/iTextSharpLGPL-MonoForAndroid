@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="iTextSharpLGPL_MonoForAndroid_Tester.iTextSharpLGPL_MonoForAndroid_Tester">
+	<uses-sdk />
+	<application android:label="iTextSharpLGPL-MonoForAndroid-Tester"></application>
+</manifest>
