@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
+	<string name="generate">Click to generate PDF</string>
 	<string name="app_name">iTextSharpLGPL-MonoForAndroid-Tester</string>
+	<string name="hello">Click to generate and display PDF</string>
 </resources>

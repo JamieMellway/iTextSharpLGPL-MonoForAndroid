@@ -1,1 +1,1 @@
-<resources><string name="hello">Hello World, Click Me!</string><string name="app_name">iTextSharpLGPL-MonoForAndroid-Tester</string></resources>
+<resources><string name="generate">Click to generate PDF</string><string name="app_name">iTextSharpLGPL-MonoForAndroid-Tester</string><string name="hello">Click to generate and display PDF</string></resources>

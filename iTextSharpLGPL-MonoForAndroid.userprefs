@@ -1,10 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iTextSharpLGPL-MonoForAndroid-Tester\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="iTextSharpLGPL-MonoForAndroid-Tester\MainActivity.cs" Line="20" Column="4" />
-      <File FileName="c:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\iTextSharp\text\pdf\Type1Font.cs" Line="183" Column="1" />
+      <File FileName="iTextSharpLGPL-MonoForAndroid-Tester\MainActivity.cs" Line="40" Column="7" />
+      <File FileName="c:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\iTextSharp\text\pdf\Type1Font.cs" Line="1" Column="1" />
       <File FileName="iTextSharpLGPL-MonoForAndroid\SystemDrawingDummy\Bitmap.cs" Line="1" Column="1" />
+      <File FileName="iTextSharpLGPL-MonoForAndroid\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="iTextSharpLGPL-MonoForAndroid-Tester\Resources\values\Strings.xml" Line="1" Column="1" />
+      <File FileName="iTextSharpLGPL-MonoForAndroid-Tester\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="iTextSharpLGPL-MonoForAndroid-Tester\Properties\AndroidManifest.xml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -14,5 +18,5 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.iTextSharpLGPL-MonoForAndroid-Tester AndroidDeviceId-Debug="015d4bdf7350200e" />
+  <MonoDevelop.Ide.ItemProperties.iTextSharpLGPL-MonoForAndroid-Tester AndroidDeviceId-Debug="015d4bdf7350200e" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
 </Properties>
