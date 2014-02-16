@@ -39,7 +39,10 @@ iTextSharp
 http://itextpdf.com
 
 iTextSharpLGPL-Monotouch is my sister project that does the same thing for MonoTouch
-https://github.com/ahall/iTextSharpLGPL-Monotouch
+https://github.com/JamieMellway/iTextSharpLGPL-Monotouch
+
+iTextSharpSL-MPL is a similar project that does the same thing for Silverlight
+http://itextsharpsl.codeplex.com/
 
 Mono For Androind
 http://xamarin.com/android
