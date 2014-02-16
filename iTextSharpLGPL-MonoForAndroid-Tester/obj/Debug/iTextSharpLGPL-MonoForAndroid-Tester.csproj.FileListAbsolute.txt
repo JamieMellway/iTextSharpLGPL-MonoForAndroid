@@ -1,0 +1,17 @@
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\bin\Debug\iTextSharpLGPL-MonoForAndroid-Tester.dll
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\bin\Debug\iTextSharpLGPL-MonoForAndroid-Tester.pdb
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\bin\Debug\iTextSharpLGPL-MonoForAndroid-Tester.dll.mdb
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\bin\Debug\iTextSharpLGPL_MonoForAndroid_Tester.iTextSharpLGPL_MonoForAndroid_Tester.apk
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\bin\Debug\iTextSharpLGPL_MonoForAndroid_Tester.iTextSharpLGPL_MonoForAndroid_Tester-Signed.apk
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\bin\Debug\iTextSharpLGPL-MonoForAndroid.dll
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\bin\Debug\iTextSharpLGPL-MonoForAndroid.pdb
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\bin\Debug\iTextSharpLGPL-MonoForAndroid.dll.mdb
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\obj\Debug\iTextSharpLGPL-MonoForAndroid-Tester.csprojResolveAssemblyReference.cache
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\obj\Debug\iTextSharpLGPL-MonoForAndroid-Tester.dll
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\obj\Debug\iTextSharpLGPL-MonoForAndroid-Tester.pdb
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\obj\Debug\android\bin\iTextSharpLGPL_MonoForAndroid_Tester.iTextSharpLGPL_MonoForAndroid_Tester.apk
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\obj\Debug\res\layout\main.xml
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\obj\Debug\res\values\strings.xml
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\obj\Debug\res\drawable\icon.png
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\obj\Debug\R.cs.flag
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\obj\Debug\uploadflags.txt

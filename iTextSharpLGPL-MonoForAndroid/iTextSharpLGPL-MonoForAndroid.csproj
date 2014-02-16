@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -14,6 +14,10 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AssemblyName>iTextSharpLGPL-MonoForAndroid</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,7 +43,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="OpenTK-1.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
@@ -1429,22 +1432,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
-    <None Include="iTextSharp\text\pdf\fonts\Courier-Bold.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Courier-BoldOblique.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Courier-Oblique.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Courier.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\glyphlist.txt" />
-    <None Include="iTextSharp\text\pdf\fonts\Helvetica-Bold.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Helvetica-BoldOblique.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Helvetica-Oblique.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Helvetica.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\mustRead.html" />
-    <None Include="iTextSharp\text\pdf\fonts\Symbol.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Times-Bold.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Times-BoldItalic.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Times-Italic.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\Times-Roman.afm" />
-    <None Include="iTextSharp\text\pdf\fonts\ZapfDingbats.afm" />
     <None Include="itextsharp.snk" />
     <None Include="README" />
     <None Include="Lib\OpenTK.dll" />
@@ -1454,12 +1441,53 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="iTextSharp\" />
-    <Folder Include="srcbc\" />
-    <Folder Include="System\" />
-    <Folder Include="Lib\" />
-    <Folder Include="Resources\" />
-    <Folder Include="SystemDrawingDummy\" />
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Courier-Bold.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Courier-Bold.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Courier.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Courier.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Courier-BoldOblique.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Courier-BoldOblique.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Courier-Oblique.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Courier-Oblique.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\glyphlist.txt">
+      <LogicalName>iTextSharp.text.pdf.fonts.glyphlist.txt</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Helvetica.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Helvetica.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Helvetica-Bold.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Helvetica-Bold.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Helvetica-BoldOblique.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Helvetica-BoldOblique.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Helvetica-Oblique.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Helvetica-Oblique.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\mustRead.html">
+      <LogicalName>iTextSharp.text.pdf.fonts.mustRead.html</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Symbol.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Symbol.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Times-Bold.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Times-Bold.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Times-BoldItalic.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Times-BoldItalic.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Times-Italic.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Times-Italic.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\Times-Roman.afm">
+      <LogicalName>iTextSharp.text.pdf.fonts.Times-Roman.afm</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iTextSharp\text\pdf\fonts\ZapfDingbats.afm" />
   </ItemGroup>
 </Project>

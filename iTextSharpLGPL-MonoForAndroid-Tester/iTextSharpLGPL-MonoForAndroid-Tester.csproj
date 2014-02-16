@@ -57,4 +57,10 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid.csproj">
+      <Project>{EB50C29C-A493-4015-B1EE-E6FF72DF1A55}</Project>
+      <Name>iTextSharpLGPL-MonoForAndroid</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

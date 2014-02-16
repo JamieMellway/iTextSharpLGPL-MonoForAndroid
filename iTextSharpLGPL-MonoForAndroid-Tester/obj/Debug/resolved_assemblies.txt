@@ -1,0 +1,2 @@
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid-Tester\bin\Debug\iTextSharpLGPL-MonoForAndroid-Tester.dll
+C:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\bin\Debug\iTextSharpLGPL-MonoForAndroid.dll

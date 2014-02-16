@@ -319,6 +319,9 @@ namespace iTextSharp.text {
             get {
                 return content.ToString();
             }
+            set { // JDM
+                content = new StringBuilder(value);
+            }
         }
 
         public override string ToString() {

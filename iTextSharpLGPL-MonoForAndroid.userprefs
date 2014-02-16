@@ -2,20 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="iTextSharpLGPL-MonoForAndroid-Tester\MainActivity.cs">
     <Files>
+      <File FileName="iTextSharpLGPL-MonoForAndroid-Tester\MainActivity.cs" Line="20" Column="4" />
+      <File FileName="c:\Users\Music\Documents\GitHub\iTextSharpLGPL-MonoForAndroid\iTextSharpLGPL-MonoForAndroid\iTextSharp\text\pdf\Type1Font.cs" Line="183" Column="1" />
       <File FileName="iTextSharpLGPL-MonoForAndroid\SystemDrawingDummy\Bitmap.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\SystemDrawingDummy\Image.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\SystemDrawingDummy\ImageFormat.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\SystemDrawingDummy\Matrix.cs" Line="1" Column="1" />
-      <File FileName="Readme.md" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid-Tester\MainActivity.cs" Line="33" Column="25" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\iTextSharp\text\Image.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\iTextSharp\text\pdf\Barcode128.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\iTextSharp\text\Document.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\srcbc\util\bzip2\CBZip2OutputStream.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\iTextSharp\text\pdf\BaseFont.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\iTextSharp\text\pdf\PdfPTable.cs" Line="1" Column="1" />
-      <File FileName="iTextSharpLGPL-MonoForAndroid\iTextSharp\text\rtf\parser\destinations\RtfDestinationShppict.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -25,4 +14,5 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.iTextSharpLGPL-MonoForAndroid-Tester AndroidDeviceId-Debug="015d4bdf7350200e" />
 </Properties>

@@ -1,0 +1,1 @@
+iTextSharpLGPLMonoForAndroidTester.TesterActivity;itextsharplgplmonoforandroidtester.TesterActivity

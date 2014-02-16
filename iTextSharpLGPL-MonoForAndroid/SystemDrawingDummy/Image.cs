@@ -1,18 +1,14 @@
-using System;
 using System.IO;
+using System.Drawing.Imaging;
 
 namespace System.Drawing
 {
-	public class Image
+	public abstract class Image 
 	{
-		public void Save (MemoryStream ms, System.Drawing.Imaging.ImageFormat format)
-		{
-			throw new NotImplementedException ();
-		}
+		public void Save (Stream stream, ImageFormat format) { throw new NotImplementedException ("System.Drawing.Image is not implemented in Mono For Android");}
 
-//		public Image ()
-//		{
-//		}
+		public int Height {	get { throw new NotImplementedException ("System.Drawing.Image is not implemented in Mono For Android");	} }
+
+		public int Width { get { throw new NotImplementedException ("System.Drawing.Image is not implemented in Mono For Android"); } }
 	}
 }
-

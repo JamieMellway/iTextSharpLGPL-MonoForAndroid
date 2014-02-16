@@ -1,36 +1,19 @@
-using System;
+using System.IO;
 
 namespace System.Drawing
 {
-	public class Bitmap : Image
+	public sealed class Bitmap : Image
 	{
-		public void SetPixel (int i, int h, System.Drawing.Color c)
-		{
-			throw new NotImplementedException ();
-		}
+		public Bitmap (int width, int height) { throw new NotImplementedException ("System.Drawing.Bitmap is not implemented in Mono For Android"); }
 
-		public Bitmap (int fullWidth, int height)
-		{
-			throw new NotImplementedException ();
-		}
+		public Bitmap (Stream stream, bool useIcm) { throw new NotImplementedException ("System.Drawing.Bitmap is not implemented in Mono For Android"); }
 
-		public Color GetPixel (int x, int y)
-		{
-			throw new NotImplementedException ();
-		}
+		public Bitmap (Type type, string resource) { throw new NotImplementedException ("System.Drawing.Bitmap is not implemented in Mono For Android"); }
 
-		public int Height {
-			get;
-			set;
-		}
+		public Bitmap (Image original, int width, int height) { throw new NotImplementedException ("System.Drawing.Bitmap is not implemented in Mono For Android"); }
 
-		public int Width {
-			get;
-			set;
-		}
-//		public Bitmap ()
-//		{
-		//		}
+		public Color GetPixel (int x, int y) { throw new NotImplementedException ("System.Drawing.Bitmap is not implemented in Mono For Android"); }
+
+		public void SetPixel (int x, int y, Color color) { throw new NotImplementedException ("System.Drawing.Bitmap is not implemented in Mono For Android"); }
 	}
 }
-

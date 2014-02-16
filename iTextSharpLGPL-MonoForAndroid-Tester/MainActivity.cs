@@ -8,6 +8,8 @@ using Android.OS;
 using System.IO;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using Android.Content.PM;
+using System.Collections.Generic;
 
 namespace iTextSharpLGPLMonoForAndroidTester
 {
@@ -18,32 +20,54 @@ namespace iTextSharpLGPLMonoForAndroidTester
 		{
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.Main);
-			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
-			button.Click += delegate {
-				try {
-					string path = System.Environment.GetFolderPath (System.Environment.SpecialFolder.Personal);
-					string fileName = System.IO.Path.Combine (path, "Tester.pdf");
-					Console.WriteLine (fileName);
-					Document document = new Document (PageSize.LETTER);
-					using (FileStream fileStream = new FileStream(fileName, FileMode.Create, FileAccess.ReadWrite)) {
-						PdfWriter writer = PdfWriter.GetInstance (document, fileStream);
-						writer.ViewerPreferences = PdfWriter.PageModeUseOutlines;
-						try {
-							document.Open ();
-							BaseFont bf = BaseFont.CreateFont (BaseFont.HELVETICA, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
-							iTextSharp.text.Font font = new iTextSharp.text.Font (bf);
-							document.Add (new Paragraph ("Test", font)); 
-						} catch (Exception ex) {
-							Console.WriteLine (ex.ToString());
+
+			string path = System.Environment.GetFolderPath (System.Environment.SpecialFolder.Desktop);
+						if (!Directory.Exists(path)) {
+							Directory.CreateDirectory(path);
 						}
-						document.Close ();
-						writer.Close ();
-					}
-				} catch (Exception ex) {
-					Console.WriteLine (ex.ToString());
-				}
-			};
+			
+						string filePdf = Path.Combine (path, "PDF_Temp.pdf");
+
+			Java.IO.File file = new Java.IO.File(filePdf);
+						this.CreatePDF (filePdf);
+
+			if (file.Exists())
+			{
+				Intent intent = DisplayPDF (file);
+				StartActivity(intent);
+			}
+		}
+
+		public void CreatePDF(string filePdf){
+			var document = new Document (PageSize.LETTER);
+
+			// Create a new PdfWriter object, specifying the output stream
+			var output = new FileStream (filePdf, FileMode.Create);
+			var writer = PdfWriter.GetInstance (document, output);
+
+			// Open the Document for writing
+			document.Open ();
+
+			BaseFont bf = BaseFont.CreateFont (BaseFont.HELVETICA, BaseFont.CP1252, false);
+			iTextSharp.text.Font font = new iTextSharp.text.Font (bf, 16, iTextSharp.text.Font.BOLD);
+			var p = new Paragraph ("Sample text", font);
+
+			document.Add (p);
+			document.Close ();
+			writer.Close ();
+
+			//Close the Document - this saves the document contents to the output stream
+			document.Close ();
+			writer.Close ();
+		}
+
+		public Intent DisplayPDF(Java.IO.File file)
+		{
+			Intent intent = new Intent(Intent.ActionView);
+			Android.Net.Uri filepath = Android.Net.Uri.FromFile(file);
+			intent.SetDataAndType(filepath, "application/pdf");
+			intent.SetFlags(ActivityFlags.ClearTop);
+			return intent;
 		}
 	}
 }

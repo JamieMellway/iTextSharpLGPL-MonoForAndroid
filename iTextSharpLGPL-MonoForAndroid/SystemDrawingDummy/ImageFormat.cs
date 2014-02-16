@@ -1,12 +1,3 @@
-using System;
-
-namespace System.Drawing.Imaging
-{
-	public class ImageFormat
-	{
-//		public ImageFormat ()
-//		{
-//		}
-	}
+namespace System.Drawing.Imaging {
+	public sealed class ImageFormat {}
 }
-
